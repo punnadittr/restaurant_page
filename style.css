@@ -1,0 +1,85 @@
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#content {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.row {
+  height: 100%;
+}
+
+h1 span {
+  color: white;
+  background: black;
+}
+
+.nav-tab {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-tab:hover {
+  cursor: pointer;
+  background: wheat;
+}
+
+.nav-tab.active {
+  color: white;
+  background: red;
+}
+
+#menu-container {
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+#menu-display {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#menu-display span {
+  background: none;
+  font-weight: 400;
+  color: white;
+  text-shadow: 4px 4px #000000bf;
+}
+
+#contact-container {
+  flex-direction: column;
+}
+
+.food-card {
+  margin: 10px;
+}
+
+#contact-main-display {
+  background: black;
+  color: white;
+}
+
+#contact-sub-display {
+  background: white;
+  color: black;
+}
+
+@media (max-width: 425px) {
+  #content {
+    overflow: auto;
+  }
+  .display-1 {
+    font-size: 3rem;
+  }
+  #menu-display span {
+    text-shadow: 2px 2px black;
+  }
+  .display-4 {
+    font-size: 2rem;
+  }
+}
