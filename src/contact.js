@@ -8,7 +8,6 @@ const renderContact = () => {
   displayText.innerHTML = "Don't contact us";
   displayText.id = "contact-main-display";
 
-
   subDisplayText.className = 'display-4 text-center';
   subDisplayText.innerHTML = "We're closed forever :(";
   subDisplayText.id = 'contact-sub-display';
